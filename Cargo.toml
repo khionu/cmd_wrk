@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "src/cmd_wrk",
+    "src/cmd_wrk_macros",
+    "src/cmd_wrk_parser",
+]
