@@ -11,5 +11,18 @@ jobs:
     - uses: actions/checkout@v1
     - name: Login to Crates.IO
       run: cargo login ${{ secrets.CratesIO }}
-    - name: Publish
-      run: cargo publish
+    - name: Publish macros
+      run: |
+        cd src/cmd_wrk_macros
+        cargo publish
+        cd ../..
+    - name: Publish parser
+      run: |
+        cd src/cmd_wrk_parser
+        cargo publish
+        cd ../..
+    - name: Publish root
+      run: |
+        cd src/cmd_wrk
+        cargo publish
+        cd ../..
