@@ -1,6 +1,6 @@
 [package]
-name = "cmd_wrk_macros"
-description = "Proc Macros for the cmd_wrk crate"
+name = "cmd_wrk"
+description = "A framework for writing commands as native functions"
 tags = ["commands", "cli", "parser", "framework"]
 version = "0.0.1"
 authors = ["Khionu Sybiern <dev@khionu.net>"]
@@ -9,9 +9,6 @@ license = "Apache-2.0 OR MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[lib]
-proc-macro = true
-
 [dependencies]
-quote = "1.0.2"
-syn = { version = "1.0.5", features = [ "full" ] }
+cmd_wrk_macros = "0.0.1"
+cmd_wrk_parser = "0.0.1"
