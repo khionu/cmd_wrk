@@ -1,6 +1,6 @@
 [package]
 name = "cmd_wrk_macros"
-description = "Proc Macros for the cmd_wrk crate"
+description = "WIP - Proc Macros for the cmd_wrk crate"
 tags = ["commands", "cli", "parser", "framework"]
 version = "0.0.1"
 authors = ["Khionu Sybiern <dev@khionu.net>"]

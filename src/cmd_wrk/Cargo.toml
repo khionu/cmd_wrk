@@ -1,6 +1,6 @@
 [package]
 name = "cmd_wrk"
-description = "A framework for writing commands as native functions"
+description = "WIP - A framework for writing commands as native functions"
 tags = ["commands", "cli", "parser", "framework"]
 version = "0.0.1"
 authors = ["Khionu Sybiern <dev@khionu.net>"]
