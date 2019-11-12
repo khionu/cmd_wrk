@@ -95,6 +95,6 @@ impl<T: StdError + 'static + Sized> From<T> for Error {
 
 impl Parser {
     pub fn from_clap_app(app: clap::App) -> Parser {
-        app.
+
     }
 }
